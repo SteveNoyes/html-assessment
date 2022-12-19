@@ -6,7 +6,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Featured Section](#featured-section)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -14,17 +13,13 @@
 
 ### Notes
 
- - Grid border lines in heading of table are white, whereas in table they are specified #b9c5ce. 
- - Font family defaults was unclear so I left blank.
+ - Grid border lines in heading of table are white, whereas in table they are specified #b9c5ce.
 
 ### Screenshot
 
-72ppi header and footer
-![](./assets/screenshots/72ppi.jpg)
+![72ppi header and footer](./assets/screenshots/72ppi.jpg)
 
-300ppi header and footer
-![](./assets/screenshots/html-assessment-ss.jpg)
-
+![300ppi header and footer](./assets/screenshots/html-assessment-ss.jpg)
 
 ### Links
 
@@ -38,16 +33,6 @@
 - HTML1
 
 - CSS 
-
-### Featured Section
-
-
-```html
-```
-
-```css
-```
-
 
 ### Useful resources
 
