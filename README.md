@@ -24,8 +24,8 @@
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://pages.github.com/)
+- Solution URL: [GitHub Repo](https://github.com/SteveNoyes/html-assessment)
+- Live Site URL: [GitHub Pages](https://stevenoyes.github.io/html-assessment/)
 
 ## My process
 
