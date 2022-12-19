@@ -14,6 +14,9 @@
 
 ### Notes
 
+ - Grid border lines in heading of table are white, whereas in table they are specified #b9c5ce. 
+ - Font family defaults was unclear so I left blank.
+
 ### Screenshot
 
 72ppi header and footer
@@ -21,6 +24,7 @@
 
 300ppi header and footer
 ![](./screenshot.jpg)
+
 
 ### Links
 
@@ -32,17 +36,36 @@
 ### Built with
 
 - HTML1
+
 - CSS 
 
 ### Featured Section
+
+
+```html
+```
+
+```css
+```
+
 
 ### Useful resources
 
 - [Irregular Table Headings](https://www.w3.org/WAI/tutorials/tables/irregular/) - table heading that spans multiple rows while still contained
 
-- [caniemail](https://www.caniemail.com/) - easy reference for testing and troubleshooting
+- [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Spacing for the top header was made easier with this.
 
 - [realtive width percentage](https://www.w3schools.com/html/html_table_sizes.asp) - table relative sizing
+
+- [meta data](https://www.goodemailcode.com/email-code/template.html) - email meta data 
+
+### Testing
+
+- [caniemail](https://www.caniemail.com/) - easy reference for testing and troubleshooting
+
+- [CSS Browser Compatibility](https://www.campaignmonitor.com/css/) - turns stylesheet in head into inline css. Much easier than writing inline css.
+
+- [test for browser inconsistencies](https://www.htmlemailcheck.com/check/) - check for common mistakes and browser inconsistencies.
 
 ## Author
 
