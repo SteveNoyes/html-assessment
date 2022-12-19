@@ -40,6 +40,8 @@
 
 - [Irregular Table Headings](https://www.w3.org/WAI/tutorials/tables/irregular/) - table heading that spans multiple rows while still contained
 
+- [caniemail](https://www.caniemail.com/) - easy reference for testing and troubleshooting
+
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)

@@ -5,82 +5,150 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
   <title>Cabenuva</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <table role="presentation">
-    <tr>
-      <td align="center">
-        <table role="presentation">
-          <tr>
-            <td align="center">
-              <img src="./assets/72ppi/Header.png" alt="" width="612px"/>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <table role="presentation">
-                <tr class="thisThing">
-                  <td>
-                    <h1 class="titleHeading">CABENUVA coverage for [POPULATION DESCRIPTOR] enrolled in the following
-                      plans:</h1>
-                  </td>
-                </tr>
 
-                <tr>
-                  <td>
-                    <table role="presentation" style="width:100%">
-                      <col>
-                      <colgroup span="2"></colgroup>
-                      <colgroup span="2"></colgroup>
+  <!-- Temp css link -->
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+    a:hover {
+      cursor: auto;
+    }
+
+		p {
+      margin: 6px 0;
+		}
+
+    table, td{
+      border-collapse:collapse;
+    }
+	</style>
+</head>
+
+<body class="body" xml:lang="en">
+  <table border="0" cellpadding="0" cellspacing="0" role="article" width="100%">
+    <tbody>
+      <tr>
+        <td>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+              <tr>
+                <td>
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" max-width="612">
+                    <tbody>
                       <tr>
-                        <th rowspan="2" class="gothicFont mainTableHead" style="width:30%">Plan Name</th>
-                        <th rowspan="2" class="gothicFont mainTableHead">Channel</th>
-                        <th colspan="2" scope="colgroup" class="gothicFont pharBen">PHARMACY BENEFIT</th>
-                        <th colspan="2" scope="colgroup" class="gothicFont medBen">MEDICAL BENEFIT</th>
+                        <td width="100%">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tr>
+                              <td >
+                                <div align="center">
+                                  <img src="./assets/300ppi/Header.png" width="612"/>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                          <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td width="100%">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tr>
+                                      <td>
+                                        <h1>CABENUVA coverage for [POPULATION DESCRIPTOR] enrolled in the following plans:</h1>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tr>
+                                      <td>
+                                      <div align="center" >
+                                        <table role="presentation" style="width:100%;">
+                                          <col>
+                                          <colgroup span="2"></colgroup>
+                                          <colgroup span="2"></colgroup>
+                                          <tr>
+                                            <th rowspan="2" >Plan Name</th>
+                                            <th rowspan="2" >Channel</th>
+                                            <th colspan="2" scope="colgroup">PHARMACY BENEFIT</th>
+                                            <th colspan="2" scope="colgroup" >MEDICAL BENEFIT</th>
+                                          </tr>
+                                          <tr>
+                                            <th scope="col" >Coverage</th>
+                                            <th scope="col" >PA</th>
+                                            <th scope="col" >Coverage</th>
+                                            <th scope="col" >PA</th>
+                                          </tr>
+                                          <tr>
+                                            <td>[PLAN NAME]</td>
+                                            <td>[CHANNEL]</td>
+                                            <td>[COVERAGE TABLE]</td>
+                                            <td>[PA]</td>
+                                            <td>[COVERAGE TABLE]</td>
+                                            <td>[PA]</td>
+                                          </tr>
+                                        </table>
+                                      </div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <table border="0" cellpadding="10" cellspacing="0" role="presentation" width="97%">
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <div>
+                                            <p>Individual access may vary by geography and plan benefit design. Please consult the individual health plan policy.</p>
+                                            <p>"Covered" means reimbursement from a health plan with a prior authorization or step edit. "Covered without restrictions" means reimbursement from a health plan with no accompanying prior authorization or step edit. However, predetermination may be recommended if acquiring via buy and bill.</p>
+                                            <p>PA = Prior authorization or step edit required. HCPs must obtain approval from the patients' insurer before the cost of the medication is covered.</p>
+                                            <p>WHAT YOU NEED TO KNOW ABOUT THIS FORMULARY INFORMATION.</p>
+                                            <p>SOURCE: Coverage data are provided by Managed Markets Insight & Technology, LLC, and are current as of <span>[MONTH] [YEAR]</span>.</p>
+                                            <p>The information in this communication is valid for no more than six months and is subject to change without notice.</p>
+                                            <p>The information provided in this communication is not a guarantee of coverage or payment (partial or full). Actual benefits are determined by each plan administrator in accordance with its respective policy and procedures. Nothing herein may be construed as an endorsement, approval, recommendation, representation, or warranty of any kind by any plan or insurer referenced herein. This communication is solely the responsibility of ViiV Healthcare. ViiV Healthcare does not endorse individual plans. Formulary coverage does not imply clinical efficacy or safety.</p>
+                                            <p>Consumers may be responsible for varying out-of-pocket costs based on an individual's plan and its benefit design. Verify coverage with plan sponsor or Centers for Medicare & Medicaid Services. Medicare Part D patients may obtain coverage for products not otherwise covered via the medical necessity process</p>
+                                            <p>Communication only to Providers — not approved for Prescription Drug Plan member distribution. Do not disseminate more than six months after sourced on date.</p>
+                                            <p>Please see accompanying full <a href="#">Prescribing Information</a> for CABENUVA.</p>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tr>
+                              <td>
+                                <div align="center">
+                                  <img src="./assets/300ppi/Footer.png" class="btmImg300" width="612"/>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
                       </tr>
-                      <tr>
-                        <th scope="col" class="gothicFont splitTableHead">Coverage</th>
-                        <th scope="col" class="gothicFont splitTableHead">PA</th>
-                        <th scope="col" class="gothicFont splitTableHead">Coverage</th>
-                        <th scope="col" class="gothicFont splitTableHead">PA</th>
-                      </tr>
-                      <tr>
-                        <td>[PLAN NAME]</td>
-                        <td>[CHANNEL]</td>
-                        <td>[COVERAGE TABLE]</td>
-                        <td>[PA]</td>
-                        <td>[COVERAGE TABLE]</td>
-                        <td>[PA]</td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td> 
-                    <p>Individual access may vary by geography and plan benefit design. Please consult the individual health plan policy.</p>
-                    <p>"Covered" means reimbursement from a health plan with a prior authorization or step edit. "Covered without restrictions" means reimbursement from a health plan with no accompanying prior authorization or step edit. However, predetermination may be recommended if acquiring via buy and bill.</p>
-                    <p>PA = Prior authorization or step edit required. HCPs must obtain approval from the patients' insurer before the cost of the medication is covered.</p>
-                    <p>WHAT YOU NEED TO KNOW ABOUT THIS FORMULARY INFORMATION.</p>
-                    <p>SOURCE: Coverage data are provided by Managed Markets Insight & Technology, LLC, and are current as of <span>[MONTH] [YEAR]</span>.</p>
-                    <p>The information in this communication is valid for no more than six months and is subject to change without notice.</p>
-                    <p>The information provided in this communication is not a guarantee of coverage or payment (partial or full). Actual benefits are determined by each plan administrator in accordance with its respective policy and procedures. Nothing herein may be construed as an endorsement, approval, recommendation, representation, or warranty of any kind by any plan or insurer referenced herein. This communication is solely the responsibility of ViiV Healthcare. ViiV Healthcare does not endorse individual plans. Formulary coverage does not imply clinical efficacy or safety.</p>
-                    <p>Consumers may be responsible for varying out-of-pocket costs based on an individual's plan and its benefit design. Verify coverage with plan sponsor or Centers for Medicare & Medicaid Services. Medicare Part D patients may obtain coverage for products not otherwise covered via the medical necessity process</p>
-                    <p>Communication only to Providers — not approved for Prescription Drug Plan member distribution. Do not disseminate more than six months after sourced on date.</p>
-                    <p>Please see accompanying full <a href="#">Prescribing Information</a> for CABENUVA.</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td align="center">
-                    <img src="./assets/72ppi/Footer.png" alt="" width="612" />
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </body>
 </html>
