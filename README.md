@@ -42,6 +42,8 @@
 
 - [caniemail](https://www.caniemail.com/) - easy reference for testing and troubleshooting
 
+- [realtive width percentage](https://www.w3schools.com/html/html_table_sizes.asp) - table relative sizing
+
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)
