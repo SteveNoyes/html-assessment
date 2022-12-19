@@ -20,10 +20,10 @@
 ### Screenshot
 
 72ppi header and footer
-![](./screenshot.jpg)
+![](./assets/screenshots/72ppi.jpg)
 
 300ppi header and footer
-![](./screenshot.jpg)
+![](./assets/screenshots/html-assessment-ss.jpg)
 
 
 ### Links
