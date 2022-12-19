@@ -1,0 +1,77 @@
+/* Fonts */
+/* =================================================================== */
+
+@import url('https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book');
+
+/* 
+ * ITC Avant Garde Gothic Std Book
+ * 9pts = 12 pixels 
+ * color #ffffff 
+ */
+/* font-family: 'ITC Avant Garde Gothic Std Book', sans-serif; */
+/* =================================================================== */
+
+@import url('https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std?styles=52540');
+
+/* 
+ * ITC Avant Garde Gothic 
+ * 16pt = 21.3px
+ * color: #506d85
+ */
+/* font-family: 'ITC Avant Garde Gothic Std', sans-serif; */
+/* =================================================================== */
+
+@import url('https://fonts.cdnfonts.com/css/myriad-pro?styles=947');
+
+/* 
+ * Myriad Pro Reg 
+ * weight: 400
+ * color: #506d85
+ */
+/* font-family: 'Myriad Pro', sans-serif; */
+/* =================================================================== */
+
+@import url('https://fonts.cdnfonts.com/css/myriad-pro?styles=952');
+
+/* 
+ * Myriad Pro Bold 
+ * weight: 700
+ * color: #506d85
+ */
+/* font-family: 'Myriad Pro', sans-serif; */
+/* =================================================================== */
+
+/* Colors */
+:root {
+  --main-table-heading: #506d85;
+  --phar-ben: #e67300;
+  --med-ben: #f6be00;
+  --split-table-heading: #8599aa;
+  --table-background: #eef0f3;
+  --table-grid: #b9c5ce;
+  --white: #ffffff;
+  --variable-alt: #e850cc;
+  --variable-alt-lite: #fe05d8;
+}
+
+.gothicFont {
+  font-family: 'ITC Avant Garde Gothic Std Book';
+  font-size: 12px;
+  color: var(--white);
+}
+
+.mainTableHead {
+  background-color: var(--main-table-heading)
+}
+
+.splitTableHead {
+  background-color: var(--split-table-heading);
+}
+
+.pharBen {
+  background-color: var(--phar-ben);
+}
+
+.medBen {
+  background-color: var(--med-ben);
+}
