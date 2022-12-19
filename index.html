@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Cabenuva</title>
+  <style>
+    * {
+      border: 1px solid red;
+    }
+  </style>
 </head>
   <table role="presentation">
     <tr>
@@ -21,20 +26,21 @@
                   <td>
                     <table>
                       <col>
-                      <colgroup></colgroup>
-                      <colgroup></colgroup>
+                      <colgroup span="2"></colgroup>
+                      <colgroup span="2"></colgroup>
                       <tr>
-                        <th>Plan Name</th>
-                        <th>Channel</th>
-                        <th>PHARMACY BENEFIT</th>
-                        <th>MEDICAL BENEFIT</th>
+                        <th rowspan="2">Plan Name</th>
+                        <th rowspan="2">Channel</th>
+                        <th colspan="2" scope="colgroup">PHARMACY BENEFIT</th>
+                        <th colspan="2" scope="colgroup">MEDICAL BENEFIT</th>
                       </tr>
                       <tr>
-                        <th>Coverage</th>
-                        <th>PA</th>
-                        <th>Coverage</th>
-                        <th>PA</th>
+                        <th scope="col">Coverage</th>
+                        <th scope="col">PA</th>
+                        <th scope="col">Coverage</th>
+                        <th scope="col">PA</th>
                       </tr>
+                      <tr>
                       <tr>
                         <td>[PLAN NAME]</td>
                         <td>[CHANNEL]</td>

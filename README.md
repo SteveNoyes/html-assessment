@@ -38,6 +38,8 @@
 
 ### Useful resources
 
+- [Irregular Table Headings](https://www.w3.org/WAI/tutorials/tables/irregular/) - table heading that spans multiple rows while still contained
+
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)
